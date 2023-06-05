@@ -48,7 +48,7 @@ public class CameraController : MonoBehaviour
 
         if (mousePos.y <= padding)
             moveDir.y = -1;
-        else if (mousePos.y >= Screen.width - padding)
+        else if (mousePos.y >= Screen.height - padding)
             moveDir.y = 1;
         else 
             moveDir.y = 0;
