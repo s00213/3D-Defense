@@ -1,0 +1,54 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Cmera",
+            "id": "92c9fbd4-610f-40f4-9200-ea629ca2db7a",
+            "actions": [
+                {
+                    "name": "Pointer",
+                    "type": "Button",
+                    "id": "d174c1ea-23bd-4cd1-a719-5b535b1ce8bf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Zoom",
+                    "type": "Value",
+                    "id": "a5b4cd12-c647-4b89-ad60-37c95317fdbd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "77082f3c-c6e7-4133-9d73-dd73c2e49050",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pointer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4206c51-62e3-457c-9fa4-76ecd08dcd7f",
+                    "path": "<Keyboard>/scrollLock",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
