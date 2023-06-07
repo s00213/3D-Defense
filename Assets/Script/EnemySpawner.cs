@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] Transform SpawnPoint;
-    [SerializeField] float spawnTime;
-    [SerializeField] GameObject enemyPrefab;
+    [SerializeField] Transform SpawnPoint; // 어디에 몬스터를 만들것인지
+    [SerializeField] float spawnTime; // 얼마나 자주 만들것인지
+    [SerializeField] GameObject enemyPrefab; // 어떤 몬스터를 만들것인지
 
 	private void OnEnable()
 	{

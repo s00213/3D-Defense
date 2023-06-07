@@ -7,28 +7,37 @@
             "actions": [
                 {
                     "name": "Pointer",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "d174c1ea-23bd-4cd1-a719-5b535b1ce8bf",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Zoom",
                     "type": "Value",
                     "id": "a5b4cd12-c647-4b89-ad60-37c95317fdbd",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "b3b2fa05-2e05-4a17-80eb-fa50fa8b329a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "77082f3c-c6e7-4133-9d73-dd73c2e49050",
-                    "path": "",
+                    "path": "<Pointer>/position",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -39,11 +48,22 @@
                 {
                     "name": "",
                     "id": "e4206c51-62e3-457c-9fa4-76ecd08dcd7f",
-                    "path": "<Keyboard>/scrollLock",
+                    "path": "<Mouse>/scroll",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3610f6f8-4c74-40dc-be3a-ea37a895d887",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

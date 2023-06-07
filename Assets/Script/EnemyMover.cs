@@ -17,14 +17,14 @@ public class EnemyMover : MonoBehaviour
 
 	private void Start()
 	{
-		//endPoint = GameObject.FindGameObjectsWithTag("EndPoint").transform;
+		endPoint = GameObject.FindGameObjectWithTag("EndPoint").transform;
 		agent.destination = endPoint.position;
 	}
 
 	private void Update()
 	{
 		if (Vector3.Distance(transform.position, endPoint.position) < 0.1f)
-		{ 
+		{
 			Destroy(gameObject);
 		}
 	}
